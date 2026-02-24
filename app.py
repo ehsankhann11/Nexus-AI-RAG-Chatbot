@@ -94,7 +94,7 @@ st.markdown('<h1 class="main-header">NEXUS AI</h1>', unsafe_allow_html=True)
 st.markdown('<p class="sub-header">Chat with Your Documents & Explore the Web in Real-Time</p>', unsafe_allow_html=True)
 
 # --- Groq API Configuration ---
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "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")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 if not GROQ_API_KEY:
     st.error("⚠️ GROQ_API_KEY not found! Please set it in your environment variables.")
