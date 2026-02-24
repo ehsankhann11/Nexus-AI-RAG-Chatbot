@@ -33,3 +33,40 @@ Nexus-AI-RAG-Chatbot/
 ├── .gitignore           # Security filters for secrets and cache
 ├── data/                # Source PDF repository
 └── db/                  # Persistent ChromaDB vector store
+
+
+
+⚡ Quick Start
+1. Installation
+Bash
+git clone [https://github.com/ehsankhann11/Nexus-AI-RAG-Chatbot.git](https://github.com/ehsankhann11/Nexus-AI-RAG-Chatbot.git)
+cd Nexus-AI-RAG-Chatbot
+python -m venv .venv
+# On Windows: .venv\Scripts\activate
+source .venv/bin/activate 
+pip install -r requirements.txt
+2. Configuration
+Create a .env file in the root directory:
+
+Plaintext
+GROQ_API_KEY=your_groq_api_key_here
+3. Execution
+Place PDFs in /data, then run:
+
+Bash
+python ingest.py
+streamlit run app.py
+👨‍💻 About the Developer
+Ehsan Ud Din Atta Final Year BS Computer Science Student COMSATS University Islamabad (Attock Campus) Expected Graduation: May 2026
+
+
+### 💡 Ye paste karne se kya hoga?
+1. **Readable Format:** Ab `bash` aur `plaintext` wali commands alag se kaale (black) boxes mein nazar aayengi, jo developer look deti hain.
+2. **Professional Profile:** Aapka graduation (May 2026) aur university ka naam niche clear nazar aayega.
+3. **Clean Look:** Saari instructions aur tech stack bullets mein honge.
+
+
+
+Ise update karne ke baad aapka project bilkul waisa lagega jaise koi professional software engineer ne banaya ho. 
+
+**Next Step:** Ise update karke check karein aur mujhe batayein ke ab GitHub par page ka look change hua?
