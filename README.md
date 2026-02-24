@@ -58,15 +58,3 @@ python ingest.py
 streamlit run app.py
 👨‍💻 About the Developer
 Ehsan Ud Din Atta Final Year BS Computer Science Student COMSATS University Islamabad (Attock Campus) Expected Graduation: May 2026
-
-
-### 💡 Ye paste karne se kya hoga?
-1. **Readable Format:** Ab `bash` aur `plaintext` wali commands alag se kaale (black) boxes mein nazar aayengi, jo developer look deti hain.
-2. **Professional Profile:** Aapka graduation (May 2026) aur university ka naam niche clear nazar aayega.
-3. **Clean Look:** Saari instructions aur tech stack bullets mein honge.
-
-
-
-Ise update karne ke baad aapka project bilkul waisa lagega jaise koi professional software engineer ne banaya ho. 
-
-**Next Step:** Ise update karke check karein aur mujhe batayein ke ab GitHub par page ka look change hua?
